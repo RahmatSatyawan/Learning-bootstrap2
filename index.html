@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <meta name="description" content="Tugas Bootstrap" />
+    <meta name="author" content="Rahmat S" />
+
+    <!-- Bootstrap CSS -->
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- CSS External -->
+    <link rel="stylesheet" href="../src/css/style.css" />
+
+    <title>Inosoft Bootcamp</title>
+    <link rel="icon" type="image/png" href="src/img/inosoft-logo.png" />
+  </head>
+
+  <body>
+    <!-- header -->
+    <header>
+      <nav class="navbar">
+        <div class="row">
+          <div>
+            <a class="col-12 navbar-brand" href="#">Inosoft Bootcamp</a>
+          </div>
+          <div class="col-12 navbar-des">Bootstrap Introduction</div>
+        </div>
+        <hr />
+      </nav>
+    </header>
+
+    <!-- main -->
+    <main>
+      <!-- pemandangan -->
+      <div class="row justify-content-center">
+        <img
+          src="../src/img/pemandangan.jpg"
+          class="col-12 img-fluid mx-auto d-block"
+          alt="pemandangan-full"
+        />
+      </div>
+      <!-- card -->
+      <div class="row row-cols-1 row-cols-md-3 g-1">
+        <div class="col">
+          <div class="card h-100">
+            <img
+              src="https://placekitten.com/g/200/300"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">
+                This is a wider card with supporting text below as a natural
+                lead-in to additional content. This content is a little bit
+                longer.
+              </p>
+            </div>
+            <div class="card-footer">
+              <small class="text-muted">Last updated 3 mins ago</small>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img
+              src="https://placekitten.com/g/200/300"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">
+                This card has supporting text below as a natural lead-in to
+                additional content.
+              </p>
+            </div>
+            <div class="card-footer">
+              <small class="text-muted">Last updated 3 mins ago</small>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img
+              src="https://placekitten.com/g/200/300"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">
+                This is a wider card with supporting text below as a natural
+                lead-in to additional content. This card has even longer content
+                than the first to show that equal height action.
+              </p>
+            </div>
+            <div class="card-footer">
+              <small class="text-muted">Last updated 3 mins ago</small>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!-- footer -->
+    <footer class="text-muted mt-5">
+      <div class="container-fluid text-muted mt-5">
+        <form>
+          <div class="row">
+            <div class="row g-3">
+              <div class="col-xs-12 col-md-6 mb-3">
+                <label for="name" class="form-label">Name</label>
+                <input
+                  type="name"
+                  class="form-control"
+                  id="name"
+                  placeholder="Enter Name"
+                  name="name"
+                />
+              </div>
+              <div class="col-xs-12 col-md-6 mb-3">
+                <label for="email" class="form-label">Email</label>
+                <input
+                  type="email"
+                  class="form-control"
+                  id="email"
+                  placeholder="Enter Email"
+                  name="email"
+                />
+              </div>
+            </div>
+            <div class="row g-3">
+              <div class="col-xs-12 col-md-6 mb-3">
+                <label for="phone" class="form-label">Phone</label>
+                <input
+                  type="phone"
+                  class="form-control"
+                  id="phone"
+                  placeholder="Enter Phone"
+                  name="phone"
+                />
+
+                <div class="row g-3 mt-3">
+                  <div class="col-xs-12 col-md-6 mb-3">
+                    <label for="phone" class="form-label">Gender</label>
+                    <div class="form-gender">
+                      <input
+                        class="form-gender"
+                        type="radio"
+                        name="Gender"
+                        id="male"
+                      />
+                      <label class="form-gender-label" for="male"> Male </label>
+                    </div>
+                    <div class="form-gender">
+                      <input
+                        class="form-gender"
+                        type="radio"
+                        name="Gender"
+                        id="female"
+                      />
+                      <label class="form-gender-label" for="female">
+                        Female
+                      </label>
+                    </div>
+                  </div>
+                  <div class="col-xs-12 col-md-6 mb-3">
+                    <select
+                      class="form-select"
+                      aria-label="Default select example"
+                    >
+                      <option selected>What's your favorite cat?</option>
+                      <option value="1">Cat1</option>
+                      <option value="2">Cat2</option>
+                      <option value="3">Cat3</option>
+                    </select>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xs-12 col-md-6 mb-3">
+                <label for="comment" class="form-label">Comment</label>
+                <textarea
+                  class="form-control"
+                  id="comment"
+                  placeholder="Enter Comment"
+                  rows="5"
+                ></textarea>
+              </div>
+              <div class="row g-3"></div>
+            </div>
+          </div>
+          <div class="d-grid d-xs-flex justify-content-md-end">
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </div>
+        </form>
+      </div>
+    </footer>
+
+    <!-- Bootstrap Bundle JS-->
+    <!-- attached at end body -->
+    <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

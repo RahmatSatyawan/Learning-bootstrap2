@@ -1,0 +1,49 @@
+body {
+  background-color: rgb(108, 117, 125);
+  padding: 5px !important;
+  margin: 0px;
+  border: 5px solid rgb(108, 117, 125);
+}
+
+main, header {
+  background-color: rgb(255, 255, 255);
+  padding: 5px !important;
+}
+
+.navbar {
+  background-color: rgb(255, 255, 255);
+  border-bottom: 2px solid rgb(108, 117, 125);
+  padding: 5px;
+}
+
+.navbar-des {
+  font-size: 12px;
+}
+
+img {
+  object-fit: cover;
+  margin: 0px auto;
+  /* object-fit: contain; */
+  padding: 5px;
+}
+.card {
+  margin: 0px;
+  padding: 5px;
+  border: 0.5px solid rgb(108, 117, 125);
+  border-radius: 0px;
+}
+.card-footer {
+  border: none;
+}
+.card-img-top {
+  /* max-width: 300px; */
+}
+
+footer {
+  background-color: rgb(255, 255, 255);
+  padding: 5px !important;
+}
+
+.btn {
+  min-width: 250px;
+}
